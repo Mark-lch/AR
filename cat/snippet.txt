@@ -1,0 +1,14 @@
+<model-viewer src="cat.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.28471858233297775m 0.3044573418491666m -0.03888956997910446m" data-normal="-0.3667636727660599m 0.8445092432123495m 0.3902416513752154m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">zzz Cat</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
